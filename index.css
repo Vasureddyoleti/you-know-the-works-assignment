@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    padding: 10px;
+
+}
+.bg-container{
+    background-color: #ffa1a9;
+    color: #2a2a63;
+    font-family: 'Roboto';
+}
+
+.icon-container {
+    border: 3px solid #2a2a63;
+    border-radius: 50px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    color: #2a2a63;
+    font-size: 35px;
+}
+
+.profile-details-container {
+    border-bottom: 4px solid #2a2a63;
+    padding-bottom: 0px;
+    
+}
+
+.profile-heading {
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.profile-description-container {
+    border-left: 4px solid #2a2a63;
+}
+
+.profile-description {
+    font-size: 16px;
+}
+
+.span-text {
+    padding-left: 0px;
+    font-weight: 600;
+}
+
+.skills-awards-container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top: 4px solid #2a2a63;
+    border-bottom: 4px solid #2a2a63;
+}
+
+.dot {
+    font-size: 13px;
+    padding: 2px;
+}
+
+.awards-details-container {
+    margin-top: 0px;
+    border-left: 4px solid #2a2a63;
+}
+
+.icon-2 {
+    font-size: 50px;
+}
+
+.interests-icons {
+    display: flex;
+    justify-content: center;
+    background-color: #2a2a63;
+    padding: 18px;
+    border-radius: 70px;
+}
+
+.music-icon {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.movie-icon {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.interests-container {
+    border-bottom: 4px solid #2a2a63;
+}
+
+.education-details-container {
+    border-bottom: 4px solid #2a2a63;
+}
+
+@media (max-width:767px) {
+    .icon-container {
+        border: 3px solid #2a2a63;
+        width: 55px;
+        border-radius: 100px;
+        padding: 7px;
+    }
+
+    .icon {
+        color: #2a2a63;
+        font-size: 17px;
+    }
+
+    .profile-heading {
+        font-size: 22px;
+        padding: 10px;
+        width: 200px;
+    }
+
+    .profile-description {
+        font-size: 13px;
+        margin: 0px;
+        width: 250px;
+    }
+
+    .profile-description-container {
+        border: none;
+    }
+
+
+    .work-dates {
+        font-size: 11px;
+        width: 120px;
+        font-weight: 600;
+    }
+
+    .span-text {
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .work-details-container {
+        padding: 0px;
+    }
+
+    .work-description {
+        font-size: 11px;
+        width: 220px;
+    }
+
+    .awards-details-container {
+        border-left: none;
+    }
+
+    .skill-text {
+        font-size: 12px;
+        width: 250px;
+    }
+
+    .dot {
+        font-size: 8px;
+        margin: 0px;
+    }
+
+    .award-year {
+        font-size: 13px;
+    }
+
+    .icon-text {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .interests-icons {
+        background-color: #2a2a63;
+        padding: 7px;
+        border-radius: 70px;
+    }
+
+    .icon-2 {
+        font-size: 15px;
+    }
+
+    .music-icon {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .movie-icon {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .interests-container {
+        width: 150px;
+    }
+
+    .dot-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
